@@ -1,0 +1,15 @@
+G:\projects\DotNet\005 (principal)\InventoryApp.Application\bin\Debug\net9.0\InventoryApp.Application.deps.json
+G:\projects\DotNet\005 (principal)\InventoryApp.Application\bin\Debug\net9.0\InventoryApp.Application.dll
+G:\projects\DotNet\005 (principal)\InventoryApp.Application\bin\Debug\net9.0\InventoryApp.Application.pdb
+G:\projects\DotNet\005 (principal)\InventoryApp.Application\bin\Debug\net9.0\InventoryApp.Domain.dll
+G:\projects\DotNet\005 (principal)\InventoryApp.Application\bin\Debug\net9.0\InventoryApp.Domain.pdb
+G:\projects\DotNet\005 (principal)\InventoryApp.Application\obj\Debug\net9.0\InventoryApp.Application.csproj.AssemblyReference.cache
+G:\projects\DotNet\005 (principal)\InventoryApp.Application\obj\Debug\net9.0\InventoryApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+G:\projects\DotNet\005 (principal)\InventoryApp.Application\obj\Debug\net9.0\InventoryApp.Application.AssemblyInfoInputs.cache
+G:\projects\DotNet\005 (principal)\InventoryApp.Application\obj\Debug\net9.0\InventoryApp.Application.AssemblyInfo.cs
+G:\projects\DotNet\005 (principal)\InventoryApp.Application\obj\Debug\net9.0\InventoryApp.Application.csproj.CoreCompileInputs.cache
+G:\projects\DotNet\005 (principal)\InventoryApp.Application\obj\Debug\net9.0\Inventor.51AEC208.Up2Date
+G:\projects\DotNet\005 (principal)\InventoryApp.Application\obj\Debug\net9.0\InventoryApp.Application.dll
+G:\projects\DotNet\005 (principal)\InventoryApp.Application\obj\Debug\net9.0\refint\InventoryApp.Application.dll
+G:\projects\DotNet\005 (principal)\InventoryApp.Application\obj\Debug\net9.0\InventoryApp.Application.pdb
+G:\projects\DotNet\005 (principal)\InventoryApp.Application\obj\Debug\net9.0\ref\InventoryApp.Application.dll
