@@ -1,0 +1,11 @@
+G:\projects\DotNet\005 (principal)\InventoryApp.Domain\bin\Debug\net9.0\InventoryApp.Domain.deps.json
+G:\projects\DotNet\005 (principal)\InventoryApp.Domain\bin\Debug\net9.0\InventoryApp.Domain.dll
+G:\projects\DotNet\005 (principal)\InventoryApp.Domain\bin\Debug\net9.0\InventoryApp.Domain.pdb
+G:\projects\DotNet\005 (principal)\InventoryApp.Domain\obj\Debug\net9.0\InventoryApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+G:\projects\DotNet\005 (principal)\InventoryApp.Domain\obj\Debug\net9.0\InventoryApp.Domain.AssemblyInfoInputs.cache
+G:\projects\DotNet\005 (principal)\InventoryApp.Domain\obj\Debug\net9.0\InventoryApp.Domain.AssemblyInfo.cs
+G:\projects\DotNet\005 (principal)\InventoryApp.Domain\obj\Debug\net9.0\InventoryApp.Domain.csproj.CoreCompileInputs.cache
+G:\projects\DotNet\005 (principal)\InventoryApp.Domain\obj\Debug\net9.0\InventoryApp.Domain.dll
+G:\projects\DotNet\005 (principal)\InventoryApp.Domain\obj\Debug\net9.0\refint\InventoryApp.Domain.dll
+G:\projects\DotNet\005 (principal)\InventoryApp.Domain\obj\Debug\net9.0\InventoryApp.Domain.pdb
+G:\projects\DotNet\005 (principal)\InventoryApp.Domain\obj\Debug\net9.0\ref\InventoryApp.Domain.dll
