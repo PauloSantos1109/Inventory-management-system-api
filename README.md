@@ -1,6 +1,6 @@
 # 🏗️ Sistema de Inventário – Loja de Materiais de Construção
 
-📌 **Projeto MVP em 1 Semana**  
+📌 **Projeto MVP em 1 Semana**
 Sistema local desenvolvido em ASP.NET Core Web API para controle de estoque e contabilidade básica de uma loja de construção. Foco em simplicidade, agilidade e funcionalidade essencial.
 
 ---
@@ -9,9 +9,9 @@ Sistema local desenvolvido em ASP.NET Core Web API para controle de estoque e co
 
 Desenvolver um sistema em até **7 dias** que permita:
 
-- Gerenciar produtos em estoque  
-- Registrar movimentações de entrada/saída  
-- Calcular valores de venda e lucro  
+- Gerenciar produtos em estoque
+- Registrar movimentações de entrada/saída
+- Calcular valores de venda e lucro
 - Gerar relatórios contábeis simples
 
 ---
@@ -33,13 +33,33 @@ Desenvolver um sistema em até **7 dias** que permita:
 
 ## 📁 Estrutura do Projeto
 InventoryApp/
- ├── InventoryApp.Api/          → API ASP.NET Core
- │    ├── Controllers/          → Endpoints (Produtos, Relatórios)
- │    ├── Models/               → Entidades (Produto, Movimentacao)
- │    ├── Data/                 → DbContext (EF Core)
- │    ├── Services/             → Lógica de negócio
- │    └── Program.cs            → Configuração inicial
- └── InventoryApp.sln           → Solução do projeto
+ ├── InventoryApp.Api/              → Projeto ASP.NET Core Web API
+ │    ├── Controllers/              → Endpoints (Produtos, Movimentações, Relatórios)
+ │    ├── Program.cs                → Configuração inicial da aplicação
+ │    └── appsettings.json          → Configurações da aplicação (conexão, etc.)
+ │
+ ├── InventoryApp.Application/      → Camada de aplicação
+ │    ├── DTOs/                     → Objetos de transferência de dados
+ │    ├── Interfaces/               → Interfaces de serviços da aplicação
+ │    └── Services/                 → Regras de negócio específicas de aplicação
+ │
+ ├── InventoryApp.Domain/           → Camada de domínio
+ │    ├── Entities/                 → Entidades principais (Produto, Movimentação, Categoria)
+ │    ├── Enums/                    → Enumerações (tipos de movimentação, etc.)
+ │    └── ValueObjects/             → Objetos de valor
+ │
+ ├── InventoryApp.Infrastructure/   → Camada de infraestrutura
+ │    ├── Data/                     → DbContext e Migrations (EF Core)
+ │    ├── Repositories/             → Implementação dos repositórios
+ │    └── Configurations/           → Mapeamento de entidades (Fluent API)
+ │
+ ├── InventoryApp.Tests/            → Testes unitários e de integração
+ │    ├── UnitTests/                → Testes de regras de negócio
+ │    └── IntegrationTests/         → Testes da API
+ │
+ ├── InventoryApp.sln               → Arquivo de solução do projeto
+ └── README.md                      → Documentação do projeto
+
 
 
 ---
@@ -51,40 +71,40 @@ InventoryApp/
 
 ### 🔹 Produtos
 
-- `Id` (int, PK)  
-- `Nome` (string)  
-- `Modelo` (string)  
-- `Marca` (string)  
-- `Quantidade` (int)  
-- `ValorCompra` (decimal)  
-- `MargemLucro` (decimal)  
+- `Id` (int, PK)
+- `Nome` (string)
+- `Modelo` (string)
+- `Marca` (string)
+- `Quantidade` (int)
+- `ValorCompra` (decimal)
+- `MargemLucro` (decimal)
 - `ValorVenda` (decimal, calculado = ValorCompra + (ValorCompra * MargemLucro / 100))
 
 ### 🔹 Movimentações
 
-- `Id` (int, PK)  
-- `ProdutoId` (int, FK → Produtos)  
-- `Tipo` (string: Entrada ou Saída)  
-- `Quantidade` (int)  
+- `Id` (int, PK)
+- `ProdutoId` (int, FK → Produtos)
+- `Tipo` (string: Entrada ou Saída)
+- `Quantidade` (int)
 - `Data` (datetime)
 
 ---
 
 ## 🚀 Funcionalidades do MVP
 
-### ✅ Cadastro de Produtos  
-- Adicionar, editar, excluir e listar produtos  
+### ✅ Cadastro de Produtos
+- Adicionar, editar, excluir e listar produtos
 - Cálculo automático do valor de venda
 
-### ✅ Movimentações de Estoque  
-- Registrar entradas e saídas  
+### ✅ Movimentações de Estoque
+- Registrar entradas e saídas
 - Atualizar estoque automaticamente
 
-### ✅ Relatórios Contábeis  
-- Valor total em estoque (soma dos custos)  
-- Valor potencial de venda  
-- Lucro estimado (venda - custo)  
-- Consulta por marca/categoria  
+### ✅ Relatórios Contábeis
+- Valor total em estoque (soma dos custos)
+- Valor potencial de venda
+- Lucro estimado (venda - custo)
+- Consulta por marca/categoria
 - Análise por período (com base nas movimentações)
 
 ---
@@ -105,9 +125,9 @@ InventoryApp/
 
 ## 📈 Possibilidades Futuras
 
-- Cadastro de fornecedores  
-- Multiusuário com permissões (admin/funcionário)  
-- Exportação de relatórios em PDF/Excel  
+- Cadastro de fornecedores
+- Multiusuário com permissões (admin/funcionário)
+- Exportação de relatórios em PDF/Excel
 - Dashboard gráfico (barras/pizza com dados de estoque e lucro)
 
 ---
@@ -120,7 +140,7 @@ Este projeto está sob a licença [MIT](LICENSE).
 
 ## 🙋‍♂️ Autor
 
-Desenvolvido por **Paulo**  
+Desenvolvido por **Paulo**
 📧 Contato: phsantos2011@gmail.com
 
 ---
