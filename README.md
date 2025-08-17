@@ -61,7 +61,7 @@ InventoryApp/
  │
  ├── InventoryApp.sln               → Arquivo de solução do projeto
  └── README.md                      → Documentação do projeto
-
+```
 
 
 ---
