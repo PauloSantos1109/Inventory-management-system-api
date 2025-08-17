@@ -32,6 +32,8 @@ Desenvolver um sistema em até **7 dias** que permita:
 ---
 
 ## 📁 Estrutura do Projeto
+
+```bash
 InventoryApp/
  ├── InventoryApp.Api/              → Projeto ASP.NET Core Web API
  │    ├── Controllers/              → Endpoints (Produtos, Movimentações, Relatórios)
@@ -60,9 +62,6 @@ InventoryApp/
  ├── InventoryApp.sln               → Arquivo de solução do projeto
  └── README.md                      → Documentação do projeto
 
-
-
----
 
 
 ---
